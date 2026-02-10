@@ -138,4 +138,24 @@ function spawnConfetti() {
 })();
 
 
+const yesBtn = document.getElementById("yes");
+const noBtn = document.getElementById("no");
+
+const proposal = document.getElementById("proposal");
+const scrollPage = document.getElementById("scrollPage");
+
+yesBtn.addEventListener("click", () => {
+  proposal.style.display = "none";
+  scrollPage.classList.remove("hidden");
+
+  // scroll to top of new page
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+// your existing NO button prank can stay
+noBtn.addEventListener("click", () => {
+  yesBtn.click();
+});
+
+
 
