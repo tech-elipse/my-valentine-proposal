@@ -5,11 +5,13 @@
 // Progressive messages when NO is clicked
 const NO_MESSAGES = [
   "No 🙃",
-  "No pretty 🥺",
+  "Are you sure? 🥺",
   "Come on…",
   "I want you 💗",
+  "You're breaking my heart 💔",
   "You're not escaping 😏",
   "Nice try 😘",
+  "Say yes already! 🥰",
   "Last chance… just say yes 💖",
 ];
 
